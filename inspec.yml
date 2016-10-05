@@ -1,0 +1,19 @@
+name: acme-inspec-profile
+title: Meta profile for Acme Inc
+maintainer: Christoph Hartmann
+copyright: Christoph Hartmann
+copyright_email: chris@lollyrock.com
+license: Apache 2.0
+summary: This profile collects all compliance and security related requirements for Acme Inc.
+version: 0.1.0
+depends:
+  - name: linux-patch-benchmark
+    git: https://github.com/dev-sec/linux-patch-benchmark.git
+  - name: windows-patch-benchmark
+    git: https://github.com/dev-sec/windows-patch-benchmark.git
+  - name: os-hardening
+    git: https://github.com/dev-sec/tests-os-hardening.git
+  - name: ssh-hardening
+    git: https://github.com/dev-sec/tests-ssh-hardening.git
+  - name: ssl-benchmark
+    git: https://github.com/dev-sec/ssl-benchmark.git
