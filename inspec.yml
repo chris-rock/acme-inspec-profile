@@ -8,12 +8,12 @@ summary: This profile collects all compliance and security related requirements 
 version: 0.1.0
 depends:
   - name: linux-patch-benchmark
-    git: https://github.com/dev-sec/linux-patch-benchmark.git
+    url: https://github.com/dev-sec/linux-patch-benchmark
   - name: windows-patch-benchmark
-    git: https://github.com/dev-sec/windows-patch-benchmark.git
+    url: https://github.com/dev-sec/windows-patch-benchmark
   - name: os-hardening
-    git: https://github.com/dev-sec/tests-os-hardening.git
+    url: https://github.com/dev-sec/tests-os-hardening
   - name: ssh-hardening
-    git: https://github.com/dev-sec/tests-ssh-hardening.git
+    url: https://github.com/dev-sec/tests-ssh-hardening
   - name: ssl-benchmark
-    git: https://github.com/dev-sec/ssl-benchmark.git
+    url: https://github.com/dev-sec/ssl-benchmark
