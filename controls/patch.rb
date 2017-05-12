@@ -16,5 +16,5 @@
 # author: Joe Gardiner
 
 # ensure all patches are applied for Windows and Linux
-include_controls 'windows-patch-benchmark'
-include_controls 'linux-patch-benchmark'
+include_controls 'windows-patch-baseline'
+include_controls 'linux-patch-baseline'

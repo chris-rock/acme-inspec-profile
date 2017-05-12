@@ -15,6 +15,9 @@
 # author: Christoph Hartmann
 # author: Dominik Richter
 
-# ensure linux servers are hardenend
-include_controls 'os-hardening'
-include_controls 'ssh-hardening'
+# ensure linux servers are hardened
+include_controls 'linux-baseline'
+include_controls 'ssh-baseline'
+
+# ensure windows servers are hardened
+include_controls 'windows-baseline'

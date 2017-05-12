@@ -15,4 +15,4 @@
 # author: Christoph Hartmann
 # author: Joe Gardiner
 
-include_controls 'ssl-benchmark'
+include_controls 'ssl-baseline'

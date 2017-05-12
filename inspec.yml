@@ -5,15 +5,17 @@ copyright: Christoph Hartmann
 copyright_email: chris@lollyrock.com
 license: Apache 2.0
 summary: This profile collects all compliance and security related requirements for Acme Inc.
-version: 0.1.0
+version: 0.2.0
 depends:
-  - name: linux-patch-benchmark
-    url: https://github.com/dev-sec/linux-patch-benchmark
-  - name: windows-patch-benchmark
-    url: https://github.com/dev-sec/windows-patch-benchmark
-  - name: os-hardening
-    url: https://github.com/dev-sec/tests-os-hardening
-  - name: ssh-hardening
-    url: https://github.com/dev-sec/tests-ssh-hardening
-  - name: ssl-benchmark
-    url: https://github.com/dev-sec/ssl-benchmark
+  - name: linux-patch-baseline
+    url: https://github.com/dev-sec/linux-patch-baseline
+  - name: linux-baseline
+    url: https://github.com/dev-sec/linux-baseline
+  - name: ssh-baseline
+    url: https://github.com/dev-sec/ssh-baseline
+  - name: windows-patch-baseline
+    url: https://github.com/dev-sec/windows-patch-baseline
+  - name: windows-baseline
+    url: https://github.com/dev-sec/windows-baseline
+  - name: ssl-baseline
+    url: https://github.com/dev-sec/ssl-baseline
